@@ -71,3 +71,12 @@ otherwise stated in the file:
 > Lawrence Livermore National Laboratory. LLNL-CODE-734707. All Rights reserved.
 
 See files LICENSE and NOTICE for details.
+
+
+## Reminder
+
+I run the script as follows:
+
+```sh
+MFEM_DIR=$HOME/Repos/mfem/build/mfem EXTRA_INCFLAGS="" ./go.sh -c coremonster -m gcc -r tests/mfem_bps/bp1_v1.sh > run_001.txt
+```

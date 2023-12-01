@@ -283,4 +283,4 @@ $dry_run make -f "$test_dir/makefile" clean-exec
 }
 
 
-test_required_packages="metis hypre mfem"
+test_required_packages=""
